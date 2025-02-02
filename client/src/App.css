@@ -1,0 +1,21 @@
+.scrollbar::-webkit-scrollbar {
+  width: 10px;
+}
+.scrollbar::-webkit-scrollbar-track {
+  @apply bg-slate-100;
+}
+.scrollbar::-webkit-scrollbar-thumb {
+  @apply bg-slate-200 rounded-full;
+}
+
+.login-btn {
+  background-color: #28497d;
+}
+
+.login-btn:hover {
+  background-color: rgb(59 130 246 / 0.5);
+}
+
+.login-btn-text:hover {
+  color: #28497d;
+}
